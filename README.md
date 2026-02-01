@@ -5,8 +5,14 @@ Support API and CLI mode.
 
 ## Tech Stack
 
-Backend: Node.js 
-Database: sqlite3
+### Backend: Node.js 
+- **High Performance**: Fast execution suitable for real-time inventory updates.
+- **Future-Proof**: The API-based server design allows seamless integration with future Web and Mobile applications.
+
+### Database: sqlite3 (better-sqlite3)
+- **Relational Structure**: Ideal for structured inventory data where data integrity is critical.
+- **Reliable**: ACID compliance ensures accurate stock tracking (prevents data conflicts).
+- **Embedded**: Fast and simple setup without needing a separate database server.
 
 ## Setup
 
