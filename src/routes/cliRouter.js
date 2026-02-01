@@ -148,9 +148,11 @@ Commands:
 
 // Start interactive mode
 function startInteractiveMode() {
-    console.log('👋 Hello! Welcome to your Inventory Management System (IMS).');
-    console.log('✨ Ready to help you organize your products.');
-    console.log('💡 Tip: Type "help" to see what I can do for you!\n');
+    console.log('===================================================')
+    console.log('Hello! Welcome to your Inventory Management System (IMS).');
+    console.log('Ready to help you organize your products.');
+    console.log('Tip: Type "help" to see what I can do for you!');
+    console.log('===================================================')
 
     const rl = readline.createInterface({
         input: process.stdin,

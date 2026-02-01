@@ -3,6 +3,11 @@
 Simple inventory system built with Node.js using MVC-R pattern.
 Support API and CLI mode.
 
+## Tech Stack
+
+Backend: Node.js 
+Database: sqlite3
+
 ## Setup
 
 ```bash
