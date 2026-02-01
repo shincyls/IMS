@@ -148,7 +148,9 @@ Commands:
 
 // Start interactive mode
 function startInteractiveMode() {
-    console.log('IMS CLI Mode - Type "help" for commands\n');
+    console.log('👋 Hello! Welcome to your Inventory Management System (IMS).');
+    console.log('✨ Ready to help you organize your products.');
+    console.log('💡 Tip: Type "help" to see what I can do for you!\n');
 
     const rl = readline.createInterface({
         input: process.stdin,
